@@ -2,11 +2,12 @@ Uuid: 065d156ecefd480fa3efa36e05d55f77
 ExtensionType: 1
 Name: Stepper
 RepoName: stepper
-ScreenVersion: 1.4
-SerialVersion: 4
+ScreenVersion: 1.4.2
+SerialVersion: 5
 MinPlatformVersion: 0
 ProOnly: False
 Author: CoreyD97
 ShortDescription: A Multi-Stage Repeater Replacement For Burp Suite
 EntryPoint: releases/Stepper.jar
-BuildCommand: gradle jar
+BuildCommand: ./gradlew jar
+SupportedProducts: Pro, Community
